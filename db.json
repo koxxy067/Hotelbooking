@@ -1,0 +1,56 @@
+{
+    "rooms": [
+        {
+            "id": 1,
+            "name": "Deluxe Room",
+            "type": "Deluxe",
+            "price": 5000,
+            "capacity": 2,
+            "description": "Spacious deluxe room with a king-size bed and city view.",
+            "image": "/images/deluxe.jpg",
+            "amenities": [
+                "Free Wi-Fi",
+                "Air Conditioning",
+                "Breakfast Included"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Standard Room",
+            "type": "Standard",
+            "price": 3000,
+            "capacity": 2,
+            "description": "Comfortable standard room with essential facilities.",
+            "image": "/images/standard.jpg",
+            "amenities": [
+                "Free Wi-Fi",
+                "Television",
+                "Air Conditioning"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Family Suite",
+            "type": "Suite",
+            "price": 8000,
+            "capacity": 4,
+            "description": "Large family suite with two bedrooms and a living space.",
+            "image": "/images/suite.jpg",
+            "amenities": [
+                "Free Wi-Fi",
+                "Kitchenette",
+                "Balcony",
+                "Room Service"
+            ]
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Test User",
+            "email": "test@example.com",
+            "password": "123456"
+        }
+    ],
+    "bookings": []
+}
